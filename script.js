@@ -1,5 +1,4 @@
 
-////// Roman Numeral Converter //////
 function convertToRoman(num) {
     /*
         Converts an integer to a Roman numeral.
@@ -41,9 +40,6 @@ function convertToRoman(num) {
 const convertButton = document.querySelector('#convert-btn');
 const inputField = document.querySelector('#number');
 const outputDiv = document.querySelector('#output');
-
-
-
 
 convertButton.addEventListener('click', () => {
     const number = parseInt(inputField.value);
